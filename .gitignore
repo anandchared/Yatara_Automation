@@ -1,1 +1,10 @@
 .env
+screenshots/
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env/
+dist/
+build/
+*.egg-info/
