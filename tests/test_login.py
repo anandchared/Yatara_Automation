@@ -6,7 +6,6 @@ from pages.login_page import LoginPage
 def login(page):
     return LoginPage(page)
 
-
 def test_login_success(login):
 
     email = os.getenv("VALID_EMAIL")

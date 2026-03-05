@@ -3,6 +3,7 @@ class LoginLocators:
     EMAIL_INPUT = "//input[@name='email']"
     PASSWORD_INPUT = "//input[@name='password']"
     LOGIN_BUTTON = "//button[normalize-space()='Sign In']"
+    CANCEL_BUTTON = "//button[normalize-space()='Cancel']"
 
 
 #     "#email",                                  # CSS by ID
