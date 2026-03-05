@@ -24,3 +24,7 @@ class LoginPage(BasePage):
     def verify_login_failed(self):
         self.page.wait_for_url("**/auth/login")
         assert "/auth/login" in self.page.url
+
+    def verify_login_failed2(self):
+        self.page.wait_for_url("**/auth/login")
+        assert "/auth/login" in self.page.url
